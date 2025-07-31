@@ -1,0 +1,58 @@
+.banner__data__two {
+    position: relative;
+}
+
+.carousel-nav {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 99;
+    /* Allows clicks on buttons only */
+}
+
+.carousel-btn {
+    pointer-events: all;
+    /* Re-enables clicks for buttons */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+@media (max-width: 768px) {
+    .carousel-btn {
+        display: none;
+    }
+}
+
+.prev-btn {
+    position: absolute;
+    left: 20px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.next-btn {
+    position: absolute;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.bannerHeadding {
+    color: #A2FFFF;
+}
+
+.iconLeft {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 40px;
+    border-radius: 100%;
+}
