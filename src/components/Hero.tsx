@@ -17,8 +17,8 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center text-white pt-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block">Ajay Singh</span>
-            <span className="block text-primary">Rajput</span>
+            <span className="block">EPCSolutions</span>
+            <span className="block text-primary">& Services</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
